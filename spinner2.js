@@ -1,4 +1,5 @@
-const arr = ["\r|", "\r/", "\r-", "\r\\", "\r|", "\r/", "\r-", "\r\\", "\r|"];
+//add the \n at the end of the array for line break
+const arr = ["\r|", "\r/", "\r-", "\r\\", "\r|", "\r/", "\r-", "\r\\", "\r|", "\n"];
 
 const timeout = function() {
   let delay = 100;
